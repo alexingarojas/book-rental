@@ -59,7 +59,7 @@ const LeftSidebar = (): JSX.Element => {
 							</a>
 							<ul aria-expanded="false" className="collapse">
 								<li>
-									<a href="#">Libros</a>
+									<Link to="/libro">Libros</Link>
 								</li>
 							</ul>
 						</li>
@@ -72,7 +72,10 @@ const LeftSidebar = (): JSX.Element => {
 							</a>
 							<ul aria-expanded="false" className="collapse">
 								<li>
-									<a href="#">Prestamos</a>
+									<Link to="/prestamo">Prestamos</Link>
+								</li>
+								<li>
+									<Link to="/solicitante">Solicitantes</Link>
 								</li>
 							</ul>
 						</li>
